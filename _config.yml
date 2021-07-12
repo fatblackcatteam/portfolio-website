@@ -1,20 +1,20 @@
 permalink: pretty
 theme: jekyll_patternbot
 patternbot:
-  title: "Dino Rescue"
+  title: "Fat Black Cat Studio"
   description: |
-  Portfolio Website for the Fat Black Cat Team.
+  Portfolio Website for the Fat Black Cat Studio Team.
   font_url: ""
   colors:
-    background: ""
-    accent: ""
+    background: "--color-primary-light"
+    accent: "--color-secondary"
     patterns:
-      brand.logos: ""
+      brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
-
+      fdfsf
     typefaces.secondary: |
-
+      sefef
     colors.primary: |
       The primary colours represent the fat black cat's fur and should be used in headings, backgrounds, buttons, banners, etc.
     colors.secondary: |

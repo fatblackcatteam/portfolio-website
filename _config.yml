@@ -1,2 +1,21 @@
 permalink: pretty
 theme: jekyll_patternbot
+patternbot:
+  title: "Dino Rescue"
+  description: |
+  Portfolio Website for the Fat Black Cat Team.
+  font_url: ""
+  colors:
+    background: ""
+    accent: ""
+    patterns:
+      brand.logos: ""
+  rationales:
+    typefaces.primary: |
+
+    typefaces.secondary: |
+
+    colors.primary: |
+      The primary colours represent the fat black cat's fur and should be used in headings, backgrounds, buttons, banners, etc.
+    colors.secondary: |
+      The secondary colours represent the fat black cat's eyes and should be used to highlight elements, make an element stand out more etc.

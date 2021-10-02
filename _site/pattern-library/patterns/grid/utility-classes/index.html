@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title>Utility classes · Grid</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1"><link href="/assets/_patternbot/common/modulifier.min.css?v=1.6.5" rel="stylesheet"><link href="/css/grid.css?v=1626117460" rel="stylesheet"><link href="/assets/_patternbot/common/typografier.min.css?v=1.6.5" rel="stylesheet"><link href="/assets/_patternbot/common/common.min.css?v=1.6.5" rel="stylesheet"><link href="/assets/_patternbot/patterns/grid/grid.min.css?v=1.6.5" rel="stylesheet"><link href="/assets/_patternbot/patterns/utilities/utilities.min.css?v=1.6.5" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1"><link href="/assets/_patternbot/common/modulifier.min.css?v=1.6.5" rel="stylesheet"><link href="/css/grid.css?v=1633214970" rel="stylesheet"><link href="/assets/_patternbot/common/typografier.min.css?v=1.6.5" rel="stylesheet"><link href="/css/theme.css?v=1633214970" rel="stylesheet"><link href="/assets/_patternbot/common/common.min.css?v=1.6.5" rel="stylesheet"><link href="/assets/_patternbot/patterns/grid/grid.min.css?v=1.6.5" rel="stylesheet"><link href="/assets/_patternbot/patterns/utilities/utilities.min.css?v=1.6.5" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
   <style>:root {
         --color-patternbot-interface: 0;
         --color-patternbot-interface-opposite: 255;
-        --color-patternbot-interface-background: #ffffff;--color-patternbot-interface-accent: #000000;}
+        --color-patternbot-interface-background: #a7d493;--color-patternbot-interface-accent: #111113;}
       html, body {
         color: #000000;
-      }</style></head>
+      }:root {
+        --font-patternbot-primary: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      }
+      html, body {
+        font-family: Raleway, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      }</style><link href="" rel="stylesheet"></head>
 <body><svg hidden>
   <symbol id="nav-icon" viewBox="0 0 256 256">
     <path d="M8.5 26.9h239v35.8H8.5zm0 83.7h239v35.8H8.5zm0 83.6h239V230H8.5z"/>
@@ -60,6 +65,202 @@
         </tr>
       </thead>
       <tbody>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.grid-middle</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Vertically centers all the units inside a grid row.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.grid-stretch</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Forces all the unit elements to be the same height.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.grid-bottom</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Aligns all the units to the bottom of the grid row.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.[size]-0</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Allows a unit to be hidden on specific screens sizes.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.unit-[size]-centered</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Allows a unit to be centered horizontally on specific screen sizes.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.unit-offset-[size]-[width]</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Makes empty space to the left of the unit by the specified amount.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.unit-push-[size]-[width]</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Pushes the unit to the right, to change order.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.unit-pull-[size]-[width]</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Pulls the unit to the left, to change order.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.unit-content-distribute</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Makes the content distribute, the top of the unit’s content will align, the bottom content will align. The content in the center will distribute its surrounding space evenly.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.[size]-content-distribute</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Makes the content distribute at a specific screen size.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.content-fill</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>When using distribute, can cause a chunk of content to stretch vertically. Added to an element inside a unit—will not work added directly to a .unit.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.[size]-content-fill</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Cause a chunk of content to stretch vertically at a specific screen size.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  
+                    <li><code class="ib valign-middle">.content-shrink</code></li>
+                  
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>When using .content-fill the elements will stretch the whole width of the containing box. Adding .content-shrink will allow the element to be only as wide as it needs to be. Added to an element inside a unit—will not work added directly to a .unit.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  
+                    <li><code class="ib valign-middle">.[size]-content-shrink</code></li>
+                  
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Allow the element to be only as wide as it needs to be, when using <code class="language-plaintext highlighter-rouge">.content-fill</code> — only at a specific screen size.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.unit-content-center</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>Lumps all the content together in the vertical center of the element.</p>
+</span></td>
+          </tr>
+        
+          <tr>
+            <th class="valign-middle" scope="row" colspan="6">
+              <ul class="list-group patternbot-utilities-classes">
+                
+                  <li><code class="ib valign-middle">.unit-[size]-content-center</code></li>
+                
+              </ul>
+            </th>
+            <td class="valign-middle" scope="col" colspan="18"><span class="ib valign-middle"><p>This class exists in variations for all sizes to allow distribution only at specific points or size-less for permanent distribution.</p>
+</span></td>
+          </tr>
         
       </tbody>
     </table>

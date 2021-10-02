@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #8dc25f;
+  --color-primary-light: #a7d493;
+  --color-secondary: #111113;
+  --color-secondary-light: #4a4d59;
+  --color-secondary-white: #efefef;
+  --color-accent: #1e6292;
+
+  --font-primary: "Raleway", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}

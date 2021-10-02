@@ -1,11 +1,11 @@
 :root {
-  --color-primary: ;
-  --color-primary-light: ;
-  --color-secondary: ;
-  --color-secondary-light: ;
+  --color-primary: #8dc25f;
+  --color-primary-light: #a7d493;
+  --color-secondary: #111113;
+  --color-secondary-light: #4a4d59;
+  --color-secondary-white: #efefef;
 
-  --font-primary: ;
-  --font-secondary: ;
+  --font-primary: "Raleway", sans-serif;
 }
 
 html {

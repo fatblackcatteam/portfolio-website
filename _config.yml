@@ -4,7 +4,7 @@ patternbot:
   title: "Fat Black Cat Studio"
   description: |
     Portfolio Website for the Fat Black Cat Studio Team.
-  font_url: ""
+  font_url: "https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700"
   colors:
     background: "--color-primary-light"
     accent: "--color-secondary"
@@ -12,9 +12,7 @@ patternbot:
       brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
-      fdfsf
-    typefaces.secondary: |
-      sefef
+      The primary typeface was chosen because of it's letters shapes fit with the roundness of the logo.
     colors.primary: |
       The primary colours represent the fat black cat's fur and should be used in headings, backgrounds, buttons, banners, etc.
     colors.secondary: |

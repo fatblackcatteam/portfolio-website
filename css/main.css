@@ -1,10 +1,14 @@
 html {
   font-family: 'Poppins', sans-serif;
-  background-color: #a7d493;
+  background-color: #efefef;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
+}
+
+.bg-green {
+  background-color: #a7d493;
 }
 
 .logo {
@@ -71,6 +75,17 @@ h1 {
 
 .btn-nav {
   border-radius: 0;
+  width: 100%;
+}
+
+.nav-btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-nav:hover {
+  background-color: #1e6291;
+  color: #efefef;
 }
 
 @media only screen and (min-width: 38em) {

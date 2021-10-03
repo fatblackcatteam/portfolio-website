@@ -8,7 +8,8 @@ h1 {
 }
 
 .logo {
-  width: 100px;
+  max-height: 100px;
+  align-content: center;
 }
 
 .coming-soon {

@@ -11,6 +11,10 @@ h1 {
   width: 100px;
 }
 
+.coming-soon {
+  font-size: 72px;
+}
+
 .btn {
   background-color: #111113;
   border-color: #111113;

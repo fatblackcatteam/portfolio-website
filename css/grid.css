@@ -1,6 +1,6 @@
 /*
   Gridifier || Code released under the UNLICENSE
-  https://gridifier.web-dev.tools/#xs,3,0,0,0;s,4,25,0,0;m,6,38,1,1;l,6,60,1,1
+  https://gridifier.web-dev.tools/#xs,2,0,0,0;s,4,25,0,0;m,6,60,1,1;l,6,90,1,1
 */
 
 .grid {
@@ -380,7 +380,7 @@
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 60em) {
 
   .unit-m-hidden,
   .m-0 {
@@ -714,7 +714,7 @@
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
 
   .unit-l-hidden,
   .l-0 {

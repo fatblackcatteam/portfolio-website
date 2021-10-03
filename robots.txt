@@ -1,6 +1,0 @@
-# robotstxt.org
-
-Sitemap: https://fatblackcat.ca
-
-User-Agent: *
-Disallow:

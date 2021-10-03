@@ -1,0 +1,32 @@
+# humanstxt.org
+
+# TEAM
+
+Sophie Riopel
+
+Designer & Developer: Sophie Riopel <sophie@fatblackcat.ca>
+Site: http://fatblackcat.ca
+GitHub: https://github.com/fatblackcatstudio
+Location: Ottawa, Canada
+
+Jack Huynh
+
+Designer & Developer: Jack Huynh <jack@fatblackcat.ca>
+Site: http://fatblackcat.ca
+GitHub: https://github.com/fatblackcats
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom
+- Git + GitHub
+- Jekyll
+- Markdown
+
+## Hosting
+
+- Netlify

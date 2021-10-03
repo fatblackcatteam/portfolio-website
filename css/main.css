@@ -86,7 +86,11 @@ h1 {
   font-weight: 400;
   padding-top: 20px;
   padding-bottom: 20px;
-  transition: 0s; 
+  transition: 0s;
+}
+
+.icon-24 {
+  height: 75%;
 }
 
 .btn-nav:hover {

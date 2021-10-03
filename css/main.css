@@ -101,7 +101,7 @@ h1 {
   color: #111113;
   border-radius: 50%;
   padding-top: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
   margin: 5px;
 }
 
@@ -119,6 +119,13 @@ h1 {
 
 .divide-b {
   border-bottom: 2px solid #8dc25f;
+}
+
+.ad {
+  background-color: #111113;
+  color: #efefef;
+  font-weight: 700;
+  padding: 20px;
 }
 
 @media only screen and (min-width: 38em) {

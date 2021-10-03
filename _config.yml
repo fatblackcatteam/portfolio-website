@@ -17,3 +17,5 @@ patternbot:
       The primary colours represent the fat black cat's fur and should be used in headings, backgrounds, buttons, banners, etc.
     colors.secondary: |
       The secondary colours represent the fat black cat's eyes and should be used to highlight elements, make an element stand out more etc.
+exclude:
+  - grid.css

@@ -91,6 +91,7 @@ h1 {
 
 .icon-24 {
   height: 75%;
+  align-content: center;
 }
 
 .btn-nav:hover {

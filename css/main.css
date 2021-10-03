@@ -93,7 +93,7 @@ h1 {
   height: 75%;
 }
 
-.i24 {
+.i-24, .i--24 {
   position: relative;
   top: -3px;
 }
@@ -105,12 +105,18 @@ h1 {
 }
 
 .divide {
-  border-top: 2px solid #8dc25f;
+  border-top: 1px solid #8dc25f;
+  border-bottom: 1px solid #8dc25f;
   border-left: none;
   border-right: none;
+  line-height: -2px;
 }
 
-.divide-2 {
+.divide-t {
+  border-top: 2px solid #8dc25f;
+}
+
+.divide-b {
   border-bottom: 2px solid #8dc25f;
 }
 

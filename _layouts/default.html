@@ -8,37 +8,15 @@
   <link rel="shortcut icon" href="image/favicon.ico">
   <link rel="icon" type="image/png" href="images/favicon-196.png">
   <link href="/css/main.css" rel="stylesheet">
-  <meta name="ICBM" content="45.41117,-75.69812">
-  <meta name="geo.position" content="45.41117;-75.69812">
-  <meta name="geo.region" content="ca-on">
-  <meta name="geo.placename" content="Ottawa">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{page.title}}">
-  <meta property="og:url" content="{{page.ogurl}}">
-  <meta property="og:image" content="http://fatblackcat.ca/images/logo.svg">
-  <meta property="og:site_name" content="Fat Black Cat Studio">
-  <meta property="og:description" content="{{page.ogdescription}}">
-  <meta property="og:locale" content="en_CA">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700" rel="stylesheet">
 </head>
 <body>
 
   {% pattern header/header %}
-  {{content}}
+  <main>
+    {{content}}
+  </main>
   {% pattern footer/footer %}
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org"
-    "@type": "Person"
-    "@id": "#fatblackcatstudio"
-    "name": "Fat Black Cat Studio"
-    "email": "info@fatblackcat.ca"
-    "url": "http://fatblackcat.ca/"
-  }
-  </script>
-
-
 
 </body>
 </html>

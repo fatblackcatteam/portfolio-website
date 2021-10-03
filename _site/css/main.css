@@ -1172,14 +1172,14 @@ a:focus, [tabindex="0"]:focus {
 
 
 :root {
-  --color-primary: #8dc25f;
-  --color-primary-light: #a7d493;
-  --color-secondary: #111113;
-  --color-secondary-light: #4a4d59;
-  --color-secondary-white: #efefef;
+  --color-primary: #111113;
+  --color-primary-light: #4a4d59;
+  --color-primary-white: #efefef;
+  --color-secondary: #8dc25f;
+  --color-secondary-light: #a7d493;
   --color-accent: #1e6292;
 
-  --font-primary: "Raleway", sans-serif;
+  --font-primary: "Poppins", sans-serif;
 }
 
 html {

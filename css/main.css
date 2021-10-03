@@ -7,6 +7,10 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+  width: 100px;
+}
+
 .btn {
   background-color: #111113;
   border-color: #111113;

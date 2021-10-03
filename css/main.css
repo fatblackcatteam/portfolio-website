@@ -89,19 +89,20 @@ h1 {
   transition: 0s;
 }
 
-.icon-24 {
-  height: 75%;
-}
-
-.i-24, .i--24 {
-  position: relative;
-  top: -3px;
-}
-
 .btn-nav:hover {
   background-color: #1e6291;
   width: 100%;
   color: #efefef;
+}
+
+.btn-icon-s {
+  background-color: transparent;
+  border-color: #111113;
+  color: #111113;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  margin: 5px;
 }
 
 .divide {

@@ -79,19 +79,30 @@ h1 {
 
 .btn-nav {
   border-radius: 0;
-  width: 100%;
-  background-color: none;
+  width: 80%;
+  background-color: transparent;
+  color: #111113;
   border: none;
-}
-
-.nav-btn {
+  font-weight: 400;
   padding-top: 20px;
   padding-bottom: 20px;
+  transition: 0s; 
 }
 
 .btn-nav:hover {
   background-color: #1e6291;
+  width: 100%;
   color: #efefef;
+}
+
+.divide {
+  border-top: 2px solid #8dc25f;
+  border-left: none;
+  border-right: none;
+}
+
+.divide-2 {
+  border-bottom: 2px solid #8dc25f;
 }
 
 @media only screen and (min-width: 38em) {

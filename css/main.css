@@ -13,8 +13,8 @@ h1 {
 }
 
 .coming-soon {
-  font-size: 72px;
-  line-height: 72px;
+  font-size: 48px;
+  line-height: 48px;
 }
 
 .btn {
@@ -71,4 +71,13 @@ h1 {
 
 .btn-nav {
   border-radius: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+    .coming-soon {
+      font-size: 72px;
+      line-height: 72px;
+    }
+
 }

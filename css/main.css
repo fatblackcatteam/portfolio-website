@@ -11,6 +11,10 @@ h1 {
   background-color: #a7d493;
 }
 
+.full-height {
+  height: 100vh;
+}
+
 .logo {
   max-width: 100px;
   margin: auto;
@@ -76,6 +80,8 @@ h1 {
 .btn-nav {
   border-radius: 0;
   width: 100%;
+  background-color: none;
+  border: none;
 }
 
 .nav-btn {

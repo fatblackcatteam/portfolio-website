@@ -175,6 +175,17 @@
           
           
           
+            <li role="presentation">
+              <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="icons" href="#icons">
+                <div class="relative">
+                  <span>Icons</span>
+                  <i class="icon i-18 absolute pin-cr">
+                    <svg><use xlink:href="#icon-active"></use></svg>
+                  </i>
+                </div>
+              </a>
+            </li>
+          
           
             
             <li role="presentation">
@@ -1836,9 +1847,17 @@
           
             <li><a href="#buttons--basic">Basic</a></li>
           
+            <li><a href="#buttons--light">Light</a></li>
+          
             <li><a href="#buttons--ghost">Ghost</a></li>
           
-            <li><a href="#buttons--light">Light</a></li>
+            <li><a href="#buttons--hamburger">Hamburger</a></li>
+          
+            <li><a href="#buttons--email">Email</a></li>
+          
+            <li><a href="#buttons--instagram">Instagram</a></li>
+          
+            <li><a href="#buttons--facebook">Facebook</a></li>
           
         </ol>
       </nav>
@@ -1847,7 +1866,10 @@
   </div>
 
   
-    
+    <div class="pattern-desc milli island ">
+      <div class="max-length"><p>Buttons should only be used when there are obvious actions that is required. They are primarily for call-to-actions for a screen.</p>
+</div>
+    </div>
   
 
   
@@ -1885,6 +1907,11 @@
             </ul>
         </div>
         
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>These are the default buttons. They should be used on primarily light backgrounds.</p>
+</div>
+          </div>
+        
       
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2">
@@ -1918,84 +1945,48 @@
                 </i>
               </button>
               
-                <code><pre id="buttons-basic-code-sample-copy-chunk">{% pattern buttons/basic %}</pre></code>
+                <code><pre id="buttons-basic-code-sample-copy-chunk">{% pattern buttons/basic text=&quot;Fat Black Cat&quot; %}</pre></code>
               
               
-            </div>
-          </div>
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="pattern-details " id="buttons--ghost">
-      
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
-          <h3 class="pattern-name tera push-1-8">Ghost</h3>
-            <ul class="list-group-inline gutter absolute pin-cr">
-              
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-ghost-code-sample">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-code"></use></svg>
-                    </i>
-                  </button>
-                </li>
-              
-              
-                <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/buttons/ghost/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-pop-out"></use></svg>
-                    </i>
-                  </a>
-                </li>
-              
-            </ul>
-        </div>
-        
-      
-
-      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
-        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative">
-            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="/pattern-library/patterns/buttons/ghost/index.html" scrolling="no" ></iframe>
-            
-              <div class="resizeable-pattern-length">
-                <div class="resize-handle resize-handle-left">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
-                  </i>
+                <div class="pad-t-1-2">
+                  <hr class="pattern-code-sep push-1-2">
+                  <table class="pattern-code-fields nano push-0">
+                    <thead>
+                      <tr>
+                        <th class="not-bold pico" scope="col" colspan="7">Field name</th>
+                        <th class="not-bold pico" scope="col" colspan="6">Data type</th>
+                        <th class="not-bold pico" scope="col" colspan="11">Example</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">text</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  string
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              
+                                
+                                <span>"Fat Black Cat"</span>
+                              
+                            
+                          </td>
+                        </tr>
+                      
+                    </tbody>
+                  </table>
                 </div>
-                <div class="resize-handle resize-handle-right">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
-                  </i>
-                </div>
-              </div>
-            
-          </div>
-        </div>
-
-        
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-ghost-code-sample" tabindex="-1">
-            <div class="pattern-code relative milli island-1-2">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-ghost-code-sample-copy-chunk" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-              
-                <code><pre id="buttons-ghost-code-sample-copy-chunk">{% pattern buttons/ghost %}</pre></code>
-              
               
             </div>
           </div>
@@ -2037,6 +2028,11 @@
             </ul>
         </div>
         
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>These are the secondary buttons. They should be used on primarily dark backgrounds.</p>
+</div>
+          </div>
+        
       
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2">
@@ -2070,7 +2066,492 @@
                 </i>
               </button>
               
-                <code><pre id="buttons-light-code-sample-copy-chunk">{% pattern buttons/light %}</pre></code>
+                <code><pre id="buttons-light-code-sample-copy-chunk">{% pattern buttons/light text=&quot;Fat Black Cat&quot; %}</pre></code>
+              
+              
+                <div class="pad-t-1-2">
+                  <hr class="pattern-code-sep push-1-2">
+                  <table class="pattern-code-fields nano push-0">
+                    <thead>
+                      <tr>
+                        <th class="not-bold pico" scope="col" colspan="7">Field name</th>
+                        <th class="not-bold pico" scope="col" colspan="6">Data type</th>
+                        <th class="not-bold pico" scope="col" colspan="11">Example</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">text</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  string
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              
+                                
+                                <span>"Fat Black Cat"</span>
+                              
+                            
+                          </td>
+                        </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="pattern-details " id="buttons--ghost">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Ghost</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-ghost-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/buttons/ghost/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>This button should be used with images and for more optional actions.</p>
+</div>
+          </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/buttons/ghost/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-ghost-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-ghost-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="buttons-ghost-code-sample-copy-chunk">{% pattern buttons/ghost text=&quot;Fat Black Cat&quot; %}</pre></code>
+              
+              
+                <div class="pad-t-1-2">
+                  <hr class="pattern-code-sep push-1-2">
+                  <table class="pattern-code-fields nano push-0">
+                    <thead>
+                      <tr>
+                        <th class="not-bold pico" scope="col" colspan="7">Field name</th>
+                        <th class="not-bold pico" scope="col" colspan="6">Data type</th>
+                        <th class="not-bold pico" scope="col" colspan="11">Example</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">text</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  string
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              
+                                
+                                <span>"Fat Black Cat"</span>
+                              
+                            
+                          </td>
+                        </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="pattern-details " id="buttons--hamburger">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Hamburger</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-hamburger-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/buttons/hamburger/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>This button is for the mobile version for the navigation bar.</p>
+</div>
+          </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/buttons/hamburger/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-hamburger-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-hamburger-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="buttons-hamburger-code-sample-copy-chunk">{% pattern buttons/hamburger %}</pre></code>
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="pattern-details " id="buttons--email">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Email</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-email-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/buttons/email/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>This button is to directly send us an email.</p>
+</div>
+          </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/buttons/email/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-email-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-email-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="buttons-email-code-sample-copy-chunk">{% pattern buttons/email %}</pre></code>
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="pattern-details " id="buttons--instagram">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Instagram</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-instagram-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/buttons/instagram/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>This button is to link to Instagram.</p>
+</div>
+          </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/buttons/instagram/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-instagram-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-instagram-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="buttons-instagram-code-sample-copy-chunk">{% pattern buttons/instagram %}</pre></code>
+              
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="pattern-details " id="buttons--facebook">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Facebook</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="buttons-facebook-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/buttons/facebook/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>This button is to link to Facebook.</p>
+</div>
+          </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/buttons/facebook/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="buttons-facebook-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#buttons-facebook-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="buttons-facebook-code-sample-copy-chunk">{% pattern buttons/facebook %}</pre></code>
               
               
             </div>
@@ -2102,38 +2583,28 @@
 
 
 
-<section class="pattern patternbot-override-color" id="cards" role="tabpanel" hidden aria-hidden="true">
+<section class="pattern " id="cards" role="tabpanel" hidden aria-hidden="true">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
     <h2 class="pattern-name exa push-1-4">Cards</h2>
     
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4 pad-b-1-4">
+          
+            <li><a href="#cards--basic">Basic</a></li>
+          
+            <li><a href="#cards--social-btns">Social Media</a></li>
+          
+        </ol>
+      </nav>
     
-      <ul class="list-group-inline gutter absolute pin-cr">
-        
-          <li>
-            <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-coming-soon-code-sample">
-              <i class="icon i-18">
-                <svg><use xlink:href="#icon-code"></use></svg>
-              </i>
-            </button>
-          </li>
-        
-        
-          <li>
-            <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/cards/coming-soon/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-              <i class="icon i-18">
-                <svg><use xlink:href="#icon-pop-out"></use></svg>
-              </i>
-            </a>
-          </li>
-        
-      </ul>
     
   </div>
 
   
-    
-      
-    
+    <div class="pattern-desc milli island ">
+      <div class="max-length"><p>Buttons should only be used when there are obvious actions that is required. They are primarily for call-to-actions for a screen.</p>
+</div>
+    </div>
   
 
   
@@ -2145,14 +2616,44 @@
     
     
     
-    <div class="pattern-details " id="cards--coming-soon">
+    <div class="pattern-details " id="cards--basic">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Basic</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-basic-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/cards/basic/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>These are the default cards. They should be used for images with a header.</p>
+</div>
+          </div>
+        
       
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
           <div class="resizeable-pattern relative">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="/pattern-library/patterns/cards/coming-soon/index.html" scrolling="no" ></iframe>
+            <iframe data-src="/pattern-library/patterns/cards/basic/index.html" scrolling="no" ></iframe>
             
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left">
@@ -2171,15 +2672,160 @@
         </div>
 
         
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-coming-soon-code-sample" tabindex="-1">
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-basic-code-sample" tabindex="-1">
             <div class="pattern-code relative milli island-1-2">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-coming-soon-code-sample-copy-chunk" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-basic-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
               
-                <code><pre id="cards-coming-soon-code-sample-copy-chunk">{% pattern cards/coming-soon %}</pre></code>
+                <code><pre id="cards-basic-code-sample-copy-chunk">{% pattern cards/basic heading=&quot;Coming soon&quot; image=&quot;logo-horizontal.svg&quot; %}</pre></code>
+              
+              
+                <div class="pad-t-1-2">
+                  <hr class="pattern-code-sep push-1-2">
+                  <table class="pattern-code-fields nano push-0">
+                    <thead>
+                      <tr>
+                        <th class="not-bold pico" scope="col" colspan="7">Field name</th>
+                        <th class="not-bold pico" scope="col" colspan="6">Data type</th>
+                        <th class="not-bold pico" scope="col" colspan="11">Example</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">heading</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  string
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              
+                                
+                                <span>"Coming soon"</span>
+                              
+                            
+                          </td>
+                        </tr>
+                      
+                        <tr>
+                          <th scope="row" colspan="7">
+                            <code class="pattern-code-field valign-middle ">image</code>
+                            <span class="ib pico not-bold italic valign-middle">required</span>
+                          </th>
+                          <td scope="col" colspan="6">
+                            
+                              <code class="pattern-code-field">
+                                
+                                  string
+                                
+                              </code>
+                            
+                          </td>
+                          <td scope="col" colspan="11">
+                            
+                              
+                                
+                                <span>"logo-horizontal.svg"</span>
+                              
+                            
+                          </td>
+                        </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="pattern-details " id="cards--social-btns">
+      
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Social Media</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+              
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-social-btns-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+              
+              
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="/pattern-library/patterns/cards/social-btns/index.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+              
+            </ul>
+        </div>
+        
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>This is for our social media links.</p>
+</div>
+          </div>
+        
+      
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="/pattern-library/patterns/cards/social-btns/index.html" scrolling="no" ></iframe>
+            
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle"></use></svg>
+                  </i>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+        
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-social-btns-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-social-btns-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              
+                <code><pre id="cards-social-btns-code-sample-copy-chunk">{% pattern cards/social-btns %}</pre></code>
               
               
             </div>

@@ -3778,8 +3778,8 @@ legend {
   --color-primary-light: #4a4d59;
   --color-primary-white: #efefef;
   --color-secondary: #8dc25f;
-  --color-secondary-light: #a7d493;
   --color-secondary-ultra-light: #d1e6bf;
+  --color-secondary-light: #a7d493;
   --color-secondary-dark: #547439;
   --color-accent: #1e6292;
 
@@ -3795,6 +3795,7 @@ html {
   border-color: var(--color-primary);
   color: var(--color-primary-white);
   font-weight: 500;
+  transition: 0.4s;
 }
 
 .btn:hover {
@@ -3824,5 +3825,23 @@ html {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-primary-white);
+}
+
+.btn-icon {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-primary-white);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.btn-icon:hover {
+  background-color: var(--color-primary-white);
+  border-color: var(--color-primary-white);
+  color: var(--color-accent)
+}
+
+.btn-nav {
+  border-radius: 0;
 }
 

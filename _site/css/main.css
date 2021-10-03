@@ -3779,6 +3779,8 @@ legend {
   --color-primary-white: #efefef;
   --color-secondary: #8dc25f;
   --color-secondary-light: #a7d493;
+  --color-secondary-ultra-light: #d1e6bf;
+  --color-secondary-dark: #547439;
   --color-accent: #1e6292;
 
   --font-primary: "Poppins", sans-serif;
@@ -3788,4 +3790,39 @@ html {
   font-family: var(--font-primary);
 }
 
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-white);
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: var(--color-secondary-light);
+  border-color: var(--color-secondary-light);
+  color: var(--color-primary);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-white);
+}
+
+.btn-light {
+  background-color: var(--color-secondary-light);
+  border-color: var(--color-secondary-light);
+  color: var(--color-primary);
+}
+
+.btn-light:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-white);
+}
 

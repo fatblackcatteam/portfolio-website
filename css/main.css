@@ -8,6 +8,7 @@ h1 {
 }
 
 .bg-green {
+  z-index: 2;
   background-color: #a7d493;
 }
 
@@ -122,10 +123,13 @@ h1 {
 }
 
 .ad {
+  z-index: 1;
   background-color: #111113;
+  width: 100%;
   color: #efefef;
   font-weight: 700;
-  padding: 20px;
+  padding: 30px;
+  text-align: right;
 }
 
 @media only screen and (min-width: 38em) {

@@ -3788,6 +3788,7 @@ legend {
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--color-secondary-light);
 }
 
 .btn {
@@ -3828,17 +3829,18 @@ html {
 }
 
 .btn-icon {
-  background-color: var(--color-accent);
-  border-color: var(--color-accent);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
   color: var(--color-primary-white);
   border-radius: 50%;
   padding: 10px;
+  margin: 5px;
 }
 
 .btn-icon:hover {
-  background-color: var(--color-primary-white);
-  border-color: var(--color-primary-white);
-  color: var(--color-accent)
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-primary-white);
 }
 
 .btn-nav {

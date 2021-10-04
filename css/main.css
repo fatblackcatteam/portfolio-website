@@ -8,8 +8,12 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
-h2 {
+.txt-thin {
   font-weight: 500;
+}
+
+.txt-sm {
+  font-weight: 600;
 }
 
 .full-height {
@@ -27,6 +31,10 @@ h2 {
 
 .txt-blue {
   color: #1e6291;
+}
+
+.txt-green {
+  color: #8dc25f;
 }
 
 .txt-grey {

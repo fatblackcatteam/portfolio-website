@@ -31,6 +31,7 @@ p {
 }
 
 .welcome {
+  height: 65vh;
   width: 80%;
   color: #1e6291;
 }
@@ -133,7 +134,7 @@ p {
 
 .footer-b {
   z-index: 1;
-  width: 75%;
+  width: 100%;
   background-color: #111113;
   color: #efefef;
   font-weight: 700;
@@ -146,10 +147,6 @@ p {
     .coming-soon {
       font-size: 72px;
       line-height: 72px;
-    }
-
-    .footer-b {
-      width: 83.3333%;
     }
 
 }

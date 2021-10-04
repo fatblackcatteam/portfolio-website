@@ -154,6 +154,7 @@ h1 {
 .welcome {
   height: 65vh;
   padding-top: 25vh;
+  margin: auto;
   width: 80%;
   color: #1e6291;
 }

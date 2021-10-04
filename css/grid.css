@@ -1,6 +1,6 @@
 /*
   Gridifier || Code released under the UNLICENSE
-  https://gridifier.web-dev.tools/#xs,2,0,0,0;s,4,25,0,0;m,6,60,1,1;l,6,90,1,1
+  https://gridifier.web-dev.tools/#xs,2,0,0,0;s,4,30,0,0;m,6,60,1,1;l,6,90,1,1
 */
 
 .grid {
@@ -241,7 +241,7 @@
   align-self: center;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 30em) {
 
   .unit-s-hidden,
   .s-0 {

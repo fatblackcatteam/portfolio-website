@@ -161,8 +161,8 @@ h1 {
 
 .floating {
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 25%;
+  left: 15%;
 }
 
 .footer-b {

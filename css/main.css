@@ -1,6 +1,7 @@
 html {
   font-family: 'Poppins', sans-serif;
   background-color: #fdfdfd;
+  color: #111113;
 }
 
 h1 {
@@ -9,10 +10,6 @@ h1 {
 
 h2 {
   font-weight: 500;
-}
-
-p {
-  color: #111113;
 }
 
 .full-height {
@@ -30,6 +27,10 @@ p {
 
 .txt-blue {
   color: #1e6291;
+}
+
+.txt-grey {
+  color: #4a4d59;
 }
 
 .btn {

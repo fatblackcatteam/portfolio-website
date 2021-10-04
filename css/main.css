@@ -21,7 +21,6 @@ h1 {
 }
 
 .bg-green {
-  z-index: 2;
   background-color: #a7d493;
 }
 
@@ -137,6 +136,11 @@ h1 {
   border-bottom: 2px solid #8dc25f;
 }
 
+.nav-s {
+  color: #111113;
+  text-decoration: none;
+}
+
 .logo {
   max-width: 100px;
   margin: auto;
@@ -162,12 +166,11 @@ h1 {
 .floating {
   position: absolute;
   top: 25%;
-  left: 15%;
-  width: 33%;
+  left: 10%;
+  width: 80%;
 }
 
 .footer-b {
-  z-index: 1;
   width: 100%;
   background-color: #111113;
   color: #fdfdfd;
@@ -176,11 +179,24 @@ h1 {
   text-align: center;
 }
 
+@media only screen and (min-width: 38em) {
+
+    .logo-s {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+}
+
 @media only screen and (min-width: 90em) {
 
     .coming-soon {
       font-size: 72px;
       line-height: 72px;
+    }
+
+    .floating {
+      width: 44%;
     }
 
 }

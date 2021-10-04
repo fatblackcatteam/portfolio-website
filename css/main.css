@@ -21,7 +21,6 @@ h1 {
 }
 
 .bg-green {
-  z-index: 2;
   background-color: #a7d493;
 }
 
@@ -167,7 +166,6 @@ h1 {
 }
 
 .footer-b {
-  z-index: 1;
   width: 100%;
   background-color: #111113;
   color: #fdfdfd;

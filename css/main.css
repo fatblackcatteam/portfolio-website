@@ -154,6 +154,17 @@ h1 {
   color: #1e6291;
 }
 
+.container {
+  position: relative;
+  text-align: left;
+}
+
+.floating {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
 .footer-b {
   z-index: 1;
   width: 100%;

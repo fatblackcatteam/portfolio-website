@@ -179,6 +179,15 @@ h1 {
   text-align: center;
 }
 
+@media only screen and (min-width: 38em) {
+
+    .logo-s {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+}
+
 @media only screen and (min-width: 90em) {
 
     .coming-soon {

@@ -7,6 +7,10 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
+p {
+  color: #111113;
+}
+
 .bg-green {
   z-index: 2;
   background-color: #a7d493;
@@ -24,6 +28,11 @@ h1 {
 .coming-soon {
   font-size: 48px;
   line-height: 48px;
+}
+
+.welcome {
+  width: 80%;
+  color: #1e6291;
 }
 
 .btn {

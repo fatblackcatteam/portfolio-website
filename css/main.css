@@ -162,7 +162,7 @@ h1 {
   position: absolute;
   top: 25%;
   left: 10%;
-  width: 44%;
+  width: 80%;
 }
 
 .footer-b {
@@ -179,6 +179,10 @@ h1 {
     .coming-soon {
       font-size: 72px;
       line-height: 72px;
+    }
+
+    .floating {
+      width: 44%;
     }
 
 }

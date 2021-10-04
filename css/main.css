@@ -52,9 +52,9 @@ h1 {
 }
 
 .btn-light {
-  background-color: #a7d493;
-  border-color: #a7d493;
-  color: #111113;
+  background-color: #8dc25f;
+  border-color: #8dc25f;
+  color: #efefef;
 }
 
 .btn-light:hover {
@@ -124,7 +124,7 @@ h1 {
 
 .footer-b {
   z-index: 1;
-  width: 84%;
+  width: 75%;
   background-color: #111113;
   color: #efefef;
   font-weight: 700;
@@ -132,11 +132,15 @@ h1 {
   text-align: center;
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 90em) {
 
     .coming-soon {
       font-size: 72px;
       line-height: 72px;
+    }
+
+    .footer-b {
+      width: 83.3333%;
     }
 
 }

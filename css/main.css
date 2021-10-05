@@ -203,6 +203,15 @@ h1 {
   text-decoration: none;
 }
 
+.nav-hide {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  top: 65px;
+  right: 0;
+  z-index: 2;
+}
+
 .nav-current {
   font-weight: 600;
   color: #1e6291;

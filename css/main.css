@@ -208,6 +208,34 @@ h1 {
   color: #1e6291;
 }
 
+label.nav-label::before {
+  display: none;
+}
+
+.nav {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  left: 0;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
 @media only screen and (min-width: 38em) {
 
     .logo-s {

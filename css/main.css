@@ -135,7 +135,8 @@ h1 {
 }
 
 .logo-xs {
-  max-width: 15%;
+  width: 15%;
+  margin: auto;
 }
 
 .coming-soon {
@@ -195,6 +196,11 @@ h1 {
 .nav-s:hover:after {
   width: 100%;
   left: 0;
+}
+
+.nav-xs {
+  color: #111113;
+  text-decoration: none;
 }
 
 .nav-current {

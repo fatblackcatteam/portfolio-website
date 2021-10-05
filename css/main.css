@@ -217,15 +217,15 @@ h1 {
   color: #1e6291;
 }
 
-.nav-check:checked ~ .nav {
+.nav-check:checked ~ .nav-hide {
   display: block;
 }
 
 .nav-close {
   display: none;
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   z-index: 3;
 }
 

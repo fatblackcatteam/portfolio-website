@@ -208,46 +208,6 @@ h1 {
   color: #1e6291;
 }
 
-label.nav-label::before {
-  display: none;
-}
-
-.nav {
-  display: none;
-  position: absolute;
-  width: 100vw;
-  top: 65px;
-  right: 0;
-  z-index: 2;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-open {
-  position: fixed;
-  top: 15px;
-  right: 15px;
-  z-index: 3;
-}
-
-.nav-close {
-  display: none;
-  position: fixed;
-  top: 15px;
-  right: 15px;
-  z-index: 3;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
-}
-
 @media only screen and (min-width: 38em) {
 
     .logo-s {

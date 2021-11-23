@@ -20,12 +20,20 @@ h1 {
   height: 100vh;
 }
 
+.length {
+  max-width: 43em;
+}
+
 .bg-green {
   background-color: #a7d493;
 }
 
 .bg-grey {
   background-color: #f8f8f8;
+}
+
+.bg-blue {
+  background-color: #1e6291;
 }
 
 .txt-blue {
@@ -38,6 +46,10 @@ h1 {
 
 .txt-grey {
   color: #4a4d59;
+}
+
+.txt-white {
+  color: #fdfdfd;
 }
 
 .btn {

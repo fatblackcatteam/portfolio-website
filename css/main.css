@@ -53,11 +53,12 @@ h1 {
 }
 
 .btn {
-  background-color: #111113;
-  border-color: #111113;
+  background-color: #1e6291;
+  border-color: #1e6291;
   color: #fdfdfd;
   font-weight: 500;
   transition: 0.4s;
+  border-radius: 10px;
 }
 
 .btn:hover {
@@ -246,6 +247,16 @@ label.nav-label::before {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 6px solid #8dc25f;
+}
+
+input[type=email] {
+  border: none;
+  border-bottom: 6px solid #8dc25f;
 }
 
 @media only screen and (min-width: 38em) {

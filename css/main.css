@@ -50,6 +50,17 @@ h1 {
 
 .txt-white {
   color: #fdfdfd;
+  text-decoration: none;
+}
+
+a {
+  color: #fdfdfd;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #1e6291;
 }
 
 .btn {
@@ -132,6 +143,10 @@ h1 {
   color: #fdfdfd;
 }
 
+.btn-long {
+  width: 100%;
+}
+
 .divide {
   width: 80%;
   margin-left: 10%;
@@ -175,6 +190,13 @@ h1 {
   top: 25%;
   left: 10%;
   width: 80%;
+}
+
+.footer-a {
+  width: 100%;
+  background-color: #8dc25f;
+  color: #fdfdfd;
+  padding: 30px;
 }
 
 .footer-b {

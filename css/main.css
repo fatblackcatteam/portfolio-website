@@ -248,7 +248,12 @@ label.nav-label::before {
   position: absolute;
   width: 100vw;
   top: 65px;
-  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.nav-check:checked ~ .nav {
+  display: contents;
 }
 
 .nav-close {
@@ -261,10 +266,6 @@ label.nav-label::before {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
-}
-
-.nav-check:checked ~ .nav {
-  display: contents;
 }
 
 input[type=text] {

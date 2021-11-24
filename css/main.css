@@ -63,6 +63,10 @@ a:hover {
   color: #1e6291;
 }
 
+.current {
+  background-color: #8dc25f;
+}
+
 .btn {
   background-color: #1e6291;
   border-color: #1e6291;

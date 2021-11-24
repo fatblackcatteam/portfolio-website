@@ -251,10 +251,6 @@ label.nav-label::before {
   left: 0;
 }
 
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
 .nav-close {
   display: none;
 }
@@ -265,6 +261,10 @@ label.nav-label::before {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+.nav-check:checked ~ .nav {
+  display: contents;
 }
 
 input[type=text] {

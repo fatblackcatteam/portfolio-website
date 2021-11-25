@@ -24,6 +24,10 @@ h1 {
   background-color: #a7d493;
 }
 
+.bg-dgreen {
+  background-color: #8dc25f;
+}
+
 .bg-grey {
   background-color: #f8f8f8;
 }
@@ -194,7 +198,7 @@ a:hover {
 
 .sample {
   height: 85vh;
-  padding-top: 25vh;
+  padding-top: 20vh;
   margin: auto;
   width: 90%;
   color: #1e6291;

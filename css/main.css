@@ -192,6 +192,14 @@ a:hover {
   color: #1e6291;
 }
 
+.sample {
+  height: 65vh;
+  padding-top: 25vh;
+  margin: auto;
+  width: 89%;
+  color: #1e6291;
+}
+
 .container {
   position: relative;
   text-align: left;

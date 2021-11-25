@@ -32,6 +32,10 @@ h1 {
   background-color: #1e6291;
 }
 
+.txt-black {
+  color: #000000;
+}
+
 .txt-blue {
   color: #1e6291;
 }
@@ -295,10 +299,6 @@ select[type=text] {
   border: none;
   border-bottom: 6px solid #8dc25f;
   background-color: transparent;
-}
-
-select:invalid {
-  color: gray;
 }
 
 textarea {

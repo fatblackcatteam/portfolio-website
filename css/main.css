@@ -44,6 +44,10 @@ h1 {
   background-color: #f8a234;
 }
 
+.bg-orange2 {
+  background-color: #f07a29;
+}
+
 .bg-lblue {
   background-color: #1ba8ca;
 }
@@ -54,6 +58,14 @@ h1 {
 
 .bg-navy {
   background-color: #192253;
+}
+
+.bg-orange2 {
+  background-color: #f07a29;
+}
+
+.bg-blue2 {
+  background-color: #2e337f;
 }
 
 .txt-black {

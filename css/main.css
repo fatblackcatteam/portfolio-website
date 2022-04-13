@@ -263,6 +263,14 @@ a:hover {
   padding: 30px;
 }
 
+.navbar {
+  position: fixed;
+}
+
+.content {
+  padding-top: 120px;
+}
+
 .nav-s {
   color: #111113;
   text-decoration: none;

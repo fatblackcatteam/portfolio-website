@@ -84,6 +84,10 @@ h1 {
   color: #4a4d59;
 }
 
+.g-hover:hover {
+  color: #8dc25f;
+}
+
 .txt-white {
   color: #fdfdfd;
   text-decoration: none;

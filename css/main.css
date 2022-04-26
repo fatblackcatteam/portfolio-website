@@ -20,6 +20,10 @@ h1 {
   height: 100vh;
 }
 
+.coming {
+  height: 63vh;
+}
+
 .bg-green {
   background-color: #a7d493;
 }

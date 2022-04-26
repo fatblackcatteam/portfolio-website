@@ -236,6 +236,14 @@ a:hover {
   color: #1e6291;
 }
 
+.welcome2 {
+  height: 60vh;
+  padding-top: 25vh;
+  margin: auto;
+  width: 80%;
+  color: #1e6291;
+}
+
 .sample {
   height: 85vh;
   padding-top: 20vh;
@@ -268,6 +276,20 @@ a:hover {
   background-color: #111113;
   color: #fdfdfd;
   font-weight: 700;
+  padding: 30px;
+}
+
+.footer-c {
+  width: 50%;
+  background-color: #111113;
+  color: #fdfdfd;
+  padding: 30px;
+}
+
+.footer-d {
+  width: 50%;
+  background-color: #1e6291;
+  color: #fdfdfd;
   padding: 30px;
 }
 

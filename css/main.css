@@ -203,6 +203,10 @@ a:hover {
   width: 100%;
 }
 
+.btn-mid {
+  width: 60%;
+}
+
 .divide {
   width: 80%;
   margin-left: 10%;

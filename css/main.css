@@ -211,6 +211,20 @@ a:hover {
   width: 60%;
 }
 
+.bullet {
+  list-style: none;
+  margin-left: 1em;
+}
+
+.bullet::before {
+  content: "\2022";
+  color: #8dc25f;;
+  font-weight: bold;
+  display: inline-block;
+  width: 0em;
+  margin-left: -1em;
+}
+
 .divide {
   width: 80%;
   margin-left: 10%;

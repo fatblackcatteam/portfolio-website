@@ -101,6 +101,10 @@ h1 {
   text-align: center;
 }
 
+.semibold {
+  font-weight: 500;
+}
+
 a {
   color: #fdfdfd;
   text-decoration: none;

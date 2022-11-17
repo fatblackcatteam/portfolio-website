@@ -241,8 +241,8 @@ a:hover {
 }
 
 .logo-xs {
-  height: 36px;
-  margin: auto;
+  height: 34px;
+  margin: none;
 }
 
 .mobile {
@@ -250,7 +250,7 @@ a:hover {
 }
 
 .nav-space {
-  padding-top: 15%;
+  padding-top: 52px;
 }
 
 .coming-soon {

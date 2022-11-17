@@ -352,43 +352,43 @@ a:hover {
   left: 0;
 }
 
-.nav-xs {
+/* small navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #8dc25f;
+  position: relative;
+}
+
+.topnav #links {
+  display: none;
+}
+
+/* navigation menu links */
+.topnav a {
   color: #111113;
+  padding: 14px 18px;
   text-decoration: none;
-}
-
-.nav-current {
-  font-weight: 600;
-  color: #1e6291;
-}
-
-label.nav-label::before {
-  display: none;
-}
-
-.nav {
-  display: none;
-  position: absolute;
-  width: 100vw;
-  top: 65px;
-  right: 0;
-  z-index: 2;
-}
-
-.nav-check:checked ~ .nav {
-  display: contents;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
+  font-size: 20px;
   display: block;
+}
+
+/* hamburger menu */
+.topnav a.icon {
+  background: #a7d493;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #a7d493;
+  color: #111113;
+}
+
+.active {
+  background-color: #a7d493;
+  color: #111113;
 }
 
 input[type=text] {

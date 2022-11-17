@@ -352,7 +352,7 @@ a:hover {
   left: 0;
 }
 
-/* Style the navigation menu */
+/* small navigation */
 .topnav {
   overflow: hidden;
   background-color: #8dc25f;
@@ -363,7 +363,7 @@ a:hover {
   display: none;
 }
 
-/* Style navigation menu links */
+/* navigation menu links */
 .topnav a {
   color: #111113;
   padding: 14px 18px;
@@ -372,7 +372,7 @@ a:hover {
   display: block;
 }
 
-/* Style the hamburger menu */
+/* hamburger menu */
 .topnav a.icon {
   background: #a7d493;
   display: block;
@@ -381,7 +381,6 @@ a:hover {
   top: 0;
 }
 
-/* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: #a7d493;
   color: #111113;
@@ -390,45 +389,6 @@ a:hover {
 .active {
   background-color: #a7d493;
   color: #111113;
-}
-
-.nav-xs {
-  color: #111113;
-  text-decoration: none;
-}
-
-.nav-current {
-  font-weight: 600;
-  color: #1e6291;
-}
-
-label.nav-label::before {
-  display: none;
-}
-
-.nav {
-  display: none;
-  position: absolute;
-  width: 100vw;
-  top: 65px;
-  right: 0;
-  z-index: 2;
-}
-
-.nav-check:checked ~ .nav {
-  display: contents;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
 }
 
 input[type=text] {

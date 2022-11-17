@@ -11,6 +11,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -78,26 +79,30 @@
 
 
       <div class="unit xs-1 s-0 bg-green text-center pin-rt">
-        <a href="home"><img class="img-flex island-1-2 logo-xs" src="/images/fbc-logo.svg" alt="Fat Black Cat Studio"></a>
-        <div class="pin-rt">
-          <input type="checkbox" id="nav-check" class="nav-check">
-          <label class="nav-label island-1-2" for="nav-check">
-            <i class="icon nav-open i-32">
-              <svg><use xlink:href="/images/icons.svg#hamburger"></use></svg>
-            </i>
-            <i class="icon nav-close i-32">
-              <svg><use xlink:href="/images/icons.svg#x"></use></svg>
-            </i>
-          </label>
+        <div class="topnav pin-rt">
+          <a href="#home" class="active"><img class="img-flex island-1-2 logo-xs" src="/images/fbc-logo.svg" alt="Fat Black Cat Studio"></a>
+          <div id="links">
+            <ul class="list-group push-1-2">
+              <li class="island-1-2"><a href="services">Services</a></li>
+              <li class="island-1-2"><a href="work">Work</a></li>
+              <li class="island-1-2"><a href="play">Play</a></li>
+              <li class="island-1-2"><a href="our-team">Our Team</a></li>
+            </ul>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
-        <nav role="navigation" id="nav" class="nav">
-          <ul class="list-group push-1-2">
-            <li class="island"><a href="services">Services</a></li>
-            <li class="island"><a href="work">Work</a></li>
-            <li class="island"><a href="play">Play</a></li>
-            <li class="island"><a href="our-team">Our Team</a></li>
-          </ul>
-        </nav>
+        <script>
+        function myFunction() {
+          var x = document.getElementById("links");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
       </div>
 
 

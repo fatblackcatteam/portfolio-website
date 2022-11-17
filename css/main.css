@@ -352,6 +352,46 @@ a:hover {
   left: 0;
 }
 
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #8dc25f;
+  position: relative;
+}
+
+.topnav #links {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #111113;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #a7d493;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #a7d493;
+  color: #111113;
+}
+
+.active {
+  background-color: #a7d493;
+  color: #111113;
+}
+
 .nav-xs {
   color: #111113;
   text-decoration: none;

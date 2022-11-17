@@ -249,6 +249,10 @@ a:hover {
   max-height: 100px;
 }
 
+.nav-space {
+  padding-top: 15%;
+}
+
 .coming-soon {
   font-size: 48px;
   line-height: 48px;

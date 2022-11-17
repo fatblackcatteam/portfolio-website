@@ -385,11 +385,6 @@ a:hover {
   top: 0;
 }
 
-.topnav a:hover {
-  background-color: #1e6291;
-  color: #fdfdfd;
-}
-
 .active {
   background-color: #a7d493;
   color: #111113;

@@ -241,7 +241,7 @@ a:hover {
 }
 
 .logo-xs {
-  height: 32px;
+  height: 36px;
   margin: auto;
 }
 
@@ -386,8 +386,8 @@ a:hover {
 }
 
 .topnav a:hover {
-  background-color: #a7d493;
-  color: #111113;
+  background-color: #1e6291;
+  color: #fdfdfd;
 }
 
 .active {

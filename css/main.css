@@ -211,6 +211,36 @@ a:hover {
   width: 60%;
 }
 
+.btn-nb {
+  display: inline-block;
+  position: relative;
+  color: #fdfdfd;
+}
+
+.btn-nb:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #a7d493;
+}
+
+.btn-nb::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 4px;
+  left: 0;
+  background-color: #8dc25f;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.btn-nb:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .bullet {
   list-style: none;
   margin-left: 1em;
@@ -327,6 +357,10 @@ a:hover {
   position: fixed;
 }
 
+.navbarspace {
+  padding-top: 10%;
+}
+
 .content {
   padding-top: 120px;
 }
@@ -390,9 +424,13 @@ a:hover {
   color: #111113;
 }
 
-.active {
-  background-color: #a7d493;
-  color: #111113;
+.filterDiv {
+  float: left;
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 input[type=text] {

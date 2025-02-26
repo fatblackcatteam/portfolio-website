@@ -161,7 +161,7 @@ a:hover {
 
 .img_wrap img{
   border-radius: 11px;
-  max-height: 250px;
+  height: 250px;
   width: 100%;
   overflow: hidden;
 }

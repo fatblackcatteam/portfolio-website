@@ -158,8 +158,10 @@ a:hover {
   opacity: 1;
 }
 
-img {
+.img_wrap img{
   border-radius: 5px;
+  width:100%;
+  object-fit:contain;
 }
 
 .btn {

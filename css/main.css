@@ -164,6 +164,12 @@ a:hover {
   border-radius: 11px;
 }
 
+.square {
+  position: relative;
+  max-height: 400px;
+  overflow: hidden;
+}
+
 .btn {
   background-color: #1e6291;
   border-color: #1e6291;

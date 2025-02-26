@@ -158,6 +158,10 @@ a:hover {
   opacity: 1;
 }
 
+img {
+  border-radius: 5px;
+}
+
 .btn {
   background-color: #1e6291;
   border-color: #1e6291;

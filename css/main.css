@@ -79,6 +79,7 @@ h1 {
 .banner2 {
   background-image: url('/images/cdps/website-lettersize-mockup-cdps.png');
   max-width: 100%;
+  display: block;
   overflow: hidden;
 }
 
@@ -147,7 +148,7 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #192253;
+  background: #1e6291;
   visibility: hidden;
   opacity: 0;
 

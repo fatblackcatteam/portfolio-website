@@ -168,7 +168,7 @@ a:hover {
   position: relative;
   padding-left: 2.6rem;
   max-height: 400px;
-  width: 100%;
+  width: auto;
   overflow: hidden;
 }
 

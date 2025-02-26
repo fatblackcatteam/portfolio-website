@@ -113,6 +113,10 @@ h1 {
   font-weight: 500;
 }
 
+.milli {
+  line-height: 1.5;
+}
+
 a {
   color: #fdfdfd;
   text-decoration: none;

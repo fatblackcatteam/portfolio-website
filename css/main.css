@@ -72,6 +72,14 @@ h1 {
   background-color: #2e337f;
 }
 
+.bg-gradient {
+  background-image: linear-gradient(to right, #1e6291 , rgba(255,0,0,0));
+}
+
+.banner2 {
+  background-image: url('/images/cdsp/website-lettersize-mockup-cdps.png');
+}
+
 .txt-black {
   color: #000000;
 }

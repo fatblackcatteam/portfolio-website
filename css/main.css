@@ -136,6 +136,28 @@ a:hover {
   background-color: #8dc25f;
 }
 
+.img_wrap {
+  position: relative;
+}
+
+.img_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #192253;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
+
 .btn {
   background-color: #1e6291;
   border-color: #1e6291;

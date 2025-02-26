@@ -140,6 +140,8 @@ a:hover {
 
 .img_wrap {
   position: relative;
+  max-height: 250px;
+  overflow: hidden;
 }
 
 .img_description {
@@ -162,10 +164,6 @@ a:hover {
 
 .img_wrap img{
   border-radius: 11px;
-  max-height: 250px;
-  max-width: 100%;
-  display: block;
-  overflow: hidden;
 }
 
 .btn {

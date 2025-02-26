@@ -161,8 +161,7 @@ a:hover {
 .img_wrap img{
   border-radius: 11px;
   height: 250px;
-  width:100%;
-  object-fit:contain;
+  object-fit: fill;
 }
 
 .btn {

@@ -77,7 +77,12 @@ h1 {
 }
 
 .banner2 {
-  background-image: url('/images/cdsp/website-lettersize-mockup-cdps.png');
+  background-image: url('/images/cdps/website-lettersize-mockup-cdps.png');
+  max-width: inherit;
+}
+
+.rcorner {
+  border-radius: 10px;
 }
 
 .txt-black {
@@ -275,6 +280,13 @@ a:hover {
   border-left: none;
   border-right: none;
   line-height: -2px;
+}
+
+.divide2 {
+  width: 3%;
+  margin-left: 48.5%;
+  border-top: 3px solid #fdfdfd;
+  border-radius: 5px;
 }
 
 .logo {

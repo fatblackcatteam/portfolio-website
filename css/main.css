@@ -164,8 +164,9 @@ a:hover {
   border-radius: 11px;
 }
 
-.square {
+.lucky {
   position: relative;
+  padding-left: 2.6rem;
   max-height: 400px;
   overflow: hidden;
 }

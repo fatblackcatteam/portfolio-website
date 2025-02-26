@@ -78,9 +78,7 @@ h1 {
 
 .banner2 {
   background-image: url('/images/cdps/website-lettersize-mockup-cdps.png');
-  max-width: 100%;
-  display: block;
-  overflow: hidden;
+  background-size: cover;
 }
 
 .rcorner {

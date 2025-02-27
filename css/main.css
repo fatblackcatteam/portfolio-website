@@ -348,6 +348,7 @@ a:hover {
 .welcome {
   height: 65vh;
   padding-top: 25vh;
+  padding-left: 3.2rem;
   color: #1e6291;
 }
 

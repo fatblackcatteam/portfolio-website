@@ -82,7 +82,7 @@ h1 {
 }
 
 .rcorner {
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .txt-black {
@@ -161,7 +161,7 @@ a:hover {
 }
 
 .img_wrap img{
-  border-radius: 10px;
+  border-radius: 11.5px;
 }
 
 .lucky {

@@ -234,6 +234,15 @@ a:hover {
   cursor: pointer;
 }
 
+.btn-fil:active {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  border-color: #fdfdfd;
+}
+
 .btn-icon {
   background-color: transparent;
   border-color: #111113;

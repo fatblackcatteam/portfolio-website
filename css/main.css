@@ -169,6 +169,19 @@ a:hover {
   padding-left: 3rem;
 }
 
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  float: left;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .btn {
   background-color: #1e6291;
   border-color: #1e6291;

@@ -109,131 +109,177 @@
 
       <!-- Large Works -->
       <div class="unit xs-0 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6 bg-blue pad-t-2 pad-b gutter-1-2">
-        <div class="grid gutter-2">
-          <div class="gutter">
+        <div class="grid gutter">
+          <!-- Filter -->
+          <div class="unit unit-m-centered pad-b" id="myBtnContainer">
+            <button class="btn-fil active" onclick="filterSelection('all')">All</button>
+            <button class="btn-fil" onclick="filterSelection('branding')">Branding</button>
+            <button class="btn-fil" onclick="filterSelection('media')">Print & Media</button>
+            <button class="btn-fil" onclick="filterSelection('web')">Web Development</button>
+            <button class="btn-fil" onclick="filterSelection('motion')">Motion Graphics</button>
+            <button class="btn-fil" onclick="filterSelection('illustration')">Illustration</button>
+          </div>
 
-          <!-- CDOHT -->
-          <div class="unit xs-0 s-1 m-1-2 pad-t gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/cdoht/website-lettersize-mockup-rounded.jpg" alt="CDOHT preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Cochrane District Ontario Health Team</h2>
-                <p class="milli">Branding | Print & Media</p>
+          <div class="unit gutter-2 container">
+            <div class="grid">
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv branding media">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/cdoht/website-lettersize-mockup-rounded.jpg" alt="CDOHT preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Cochrane District Ontario Health Team</h2>
+                    <p class="milli">Branding | Print & Media</p>
+                  </div>
+                </div>
               </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv branding media">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/cdps/website-lettersize-mockup-cdps.png" alt="CDPS preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Cochrane-District Paramedic Service</h2>
+                    <p class="milli">Branding | Print & Media</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv branding media web">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/hm/website-1080p-humanagement.jpg" alt="HM preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Humanagement</h2>
+                    <p class="milli">Branding | Print & Media | Web Design</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv media">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/tedc/website-square-mockup-tedc.png" alt="TEDC preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Timmins Economic Development Corporation</h2>
+                    <p class="milli">Print & Media</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv branding motion illustration">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/gg/website-1080p-mockup-gg.png" alt="GG preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Grant Getters</h2>
+                    <p class="milli">Branding | Motion Graphics | Illustration</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv media">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/phu/website-square-mockup-phu.png" alt="PHU preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Porcupine Health Unit</h2>
+                    <p class="milli">Print & Media</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv media">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/ncdsb/website-booklet-ncdsb.png" alt="NCDSB preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Northeastern Catholic District School Board</h2>
+                    <p class="milli">Print & Media</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv branding media">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/tfcc/website-lettersize-mockup-tfcc.png" alt="TFCC preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Timmins Family Counselling Center</h2>
+                    <p class="milli">Branding | Print & Media</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv motion illustration">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/ece/website-1080p-mockup-ece.png" alt="ECE preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Ontario Early Childhood Educators Grants</h2>
+                    <p class="milli">Motion Graphics | Illustration</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv branding media web">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/cochrane/website-lettersize-mockup-ct.png" alt="TC preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Tourism Cochrane</h2>
+                    <p class="milli">Branding | Print & Media | Web Design</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1-2 gutter-1-2 filterDiv branding web">
+                <div class="bg-blue txt-white rcorner push img_wrap">
+                  <img class="img-flex" src="/images/hm/website-1080p-humanagement.jpg" alt="BCLT preview">
+                  <div class="img_description island-1-2 rcorner">
+                    <h3 class="push-1-8 mega">Breakthrough Speech & Language Therapy</h2>
+                    <p class="milli">Branding | Web Design</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
 
-          <!-- CDPS -->
-          <div class="unit xs-0 s-1 m-1-2 pad-t gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/cdps/website-lettersize-mockup-cdps.png" alt="CDPS preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Cochrane-District Paramedic Service</h2>
-                <p class="milli">Branding | Print & Media</p>
-              </div>
-            </div>
-          </div>
+          <script>
+          filterSelection("all")
+          function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+              w3RemoveClass(x[i], "show");
+              if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+          }
 
-          <!-- HM -->
-          <div class="unit xs-0 s-1 m-1-2 gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/hm/website-1080p-humanagement.jpg" alt="HM preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Humanagement</h2>
-                <p class="milli">Branding | Print & Media | Web Design</p>
-              </div>
-            </div>
-          </div>
+          function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+            }
+          }
 
-          <!-- TEDC -->
-          <div class="unit xs-0 s-1 m-1-2 gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/tedc/website-square-mockup-tedc.png" alt="TEDC preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Timmins Economic Development Corporation</h2>
-                <p class="milli">Print & Media</p>
-              </div>
-            </div>
-          </div>
+          function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+              }
+            }
+            element.className = arr1.join(" ");
+          }
 
-          <!-- GG -->
-          <div class="unit xs-0 s-1 m-1-2 gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/gg/website-1080p-mockup-gg.png" alt="GG preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Grant Getters</h2>
-                <p class="milli">Branding | Motion Graphics | Illustration</p>
-              </div>
-            </div>
-          </div>
+          var btnContainer = document.getElementById("myBtnContainer");
+          var btns = btnContainer.getElementsByClassName("btn-fil");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+              var current = document.getElementsByClassName("active");
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
+            });
+          }
+          </script>
 
-          <!-- PHU -->
-          <div class="unit xs-0 s-1 m-1-2 gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/phu/website-square-mockup-phu.png" alt="PHU preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Porcupine Health Unit</h2>
-                <p class="milli">Print & Media</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- NCDSB -->
-          <div class="unit xs-0 s-1 m-1-2 gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/ncdsb/website-booklet-ncdsb.png" alt="NCDSB preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Northeastern Catholic District School Board</h2>
-                <p class="milli">Print & Media</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- TFCC -->
-          <div class="unit xs-0 s-1 m-1-2 gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/tfcc/website-lettersize-mockup-tfcc.png" alt="TFCC preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Timmins Family Counselling Center</h2>
-                <p class="milli">Branding | Print & Media</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- ECE -->
-          <div class="unit xs-0 s-1 m-1-2 gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/ece/website-1080p-mockup-ece.png" alt="ECE preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Ontario Early Childhood Educators Grants</h2>
-                <p class="milli">Motion Graphics | Illustration</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- TC -->
-          <div class="unit xs-0 s-1 m-1-2 gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/cochrane/website-lettersize-mockup-ct.png" alt="TC preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Tourism Cochrane</h2>
-                <p class="milli">Branding | Print & Media | Web Design</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- BCLT -->
-          <div class="unit xs-0 s-1 m-1-2 gutter-1-2">
-            <div class="bg-blue txt-white rcorner push img_wrap">
-              <img class="img-flex" src="/images/hm/website-1080p-humanagement.jpg" alt="BCLT preview">
-              <div class="img_description island-1-2 rcorner">
-                <h3 class="push-1-8 mega">Breakthrough Speech & Language Therapy</h2>
-                <p class="milli">Branding | Web Design</p>
-              </div>
-            </div>
-          </div>
-
-          </div>
         </div>
       </div>
 

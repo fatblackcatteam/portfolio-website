@@ -234,8 +234,8 @@ a:hover {
   cursor: pointer;
 }
 
-.btn-fil:active {
-  background-color: transparent;
+.btn-fil.active {
+  border-bottom: 2px solid;
   border-top: none;
   border-left: none;
   border-right: none;

@@ -220,27 +220,18 @@ a:hover {
   color: #fdfdfd;
 }
 
-.btn-filter {
+.btn-fil {
   background-color: #1e6291;
+  border: none;
+  color: #fdfdfd;
+  font-size: .9372rem;
+}
+
+.btn-fil:hover {
+  background-color: transparent;
   border: none;
   color: #fdfdfd;
   cursor: pointer;
-}
-
-.btn-filter:hover {
-  background-color: #1e6291;
-  border: none;
-  color: #fdfdfd;
-}
-
-.btn-filter:active {
-  background-color: #1e6291;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 0px;
-  border-color: #fdfdfd;
-  font-weight: bold;
 }
 
 .btn-icon {

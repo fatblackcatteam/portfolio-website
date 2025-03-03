@@ -220,6 +220,29 @@ a:hover {
   color: #fdfdfd;
 }
 
+.btn-filter {
+  background-color: #1e6291;
+  border: none;
+  color: #fdfdfd;
+  cursor: pointer;
+}
+
+.btn-filter:hover {
+  background-color: #1e6291;
+  border: none;
+  color: #fdfdfd;
+}
+
+.btn-filter:active {
+  background-color: #1e6291;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  border-color: #fdfdfd;
+  font-weight: bold;
+}
+
 .btn-icon {
   background-color: transparent;
   border-color: #111113;

@@ -97,6 +97,10 @@ h1 {
   color: #8dc25f;
 }
 
+.txt-lgreen {
+  color: #a7d493;
+}
+
 .txt-grey {
   color: #4a4d59;
 }
@@ -180,6 +184,18 @@ a:hover {
 
 .show {
   display: block;
+}
+
+.grid-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.ul.in {
+  list-style-type: circle;
+  list-style-position: inside;
 }
 
 .btn {

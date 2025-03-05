@@ -202,7 +202,7 @@ a:hover {
   background-color: #1e6291;
   border-color: #1e6291;
   color: #fdfdfd;
-  font-weight: 500;
+  font-weight: 600;
   transition: 0.4s;
   border-radius: 100px;
 }
@@ -214,8 +214,9 @@ a:hover {
 }
 
 .btn-ghost {
-  background-color: transparent;
-  color: #111113;
+  background-color: #a7d493;
+  border-color: #a7d493;
+  color: #1e6291;
 }
 
 .btn-ghost:hover {
@@ -231,8 +232,8 @@ a:hover {
 }
 
 .btn-light:hover {
-  background-color: #111113;
-  border-color: #111113;
+  background-color: #1e6291;
+  border-color: #1e6291;
   color: #fdfdfd;
 }
 

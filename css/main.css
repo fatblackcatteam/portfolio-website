@@ -16,6 +16,11 @@ h1 {
   font-weight: 600;
 }
 
+.txt-big {
+  font-weight: 700;
+  font-size: 100px;
+}
+
 .full-height {
   height: 100vh;
 }

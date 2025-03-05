@@ -30,11 +30,11 @@
               <hr class="divide push-0">
             </li>
             <li>
-              <a href="portfolio" class="btn btn-nav">Portfolio</a>
+              <a href="work" class="btn btn-nav">Portfolio</a>
+              <hr class="divide push-0">
             </li>
             <li>
-              <hr class="divide push-0">
-              <a href="about-us" class="btn btn-nav">About Us</a>
+              <a href="our-team" class="btn btn-nav">About Us</a>
             </li>
             <li>
               <hr class="divide push-0">
@@ -62,7 +62,6 @@
         </div>
       </div>
 
-
       <!-- Small Navigation -->
       <div class="unit xs-0 s-1 m-0 bg-green island-1-2 gutter-2 pin-t">
         <nav class="grid grid-middle">
@@ -77,7 +76,6 @@
           </ul>
         </nav>
       </div>
-
 
       <!-- Hamburger Navigation -->
       <div class="unit xs-1 s-0 text-center pin-rt">
@@ -109,129 +107,445 @@
         </script>
       </div>
 
+      <!-- Large Works -->
+      <div class="unit xs-0 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6 bg-blue pad-t-2 pad-b gutter-1-2">
+        <div class="grid gutter">
+          <!-- Filter -->
+          <div class="unit unit-m-centered pad-b" id="myBtnContainer">
+            <button class="btn-fil active" onclick="filterSelection('branding')">Branding</button>
+            <button class="btn-fil" onclick="filterSelection('media')">Print & Media</button>
+            <button class="btn-fil" onclick="filterSelection('web')">Web Development</button>
+            <button class="btn-fil" onclick="filterSelection('motion')">Motion Graphics</button>
+            <button class="btn-fil" onclick="filterSelection('illustration')">Illustration</button>
+          </div>
 
-      <div class="unit xs-0 s-1 m-3-4 l-5-6 unit-content-center unit-offset-m-1-4 unit-offset-l-1-6 pad-t-2 pad-b-2 push-2">
-        <div class="welcome island-2 wrapper">
-          <h1>Our Services</h1>
-          <p>At Fat Black Cat Studio, we understand every company has different needs. We work closely with our cilents to ensure their unique needs are met.</p>
-          <a class="btn btn-light gutter-2" href="#quote">How to request a quote</a>
+          <div class="unit xs-0 s-1 gutter-2 container">
+            <div class="grid wrapper">
+
+              <div class="unit xs-0 s-1 m-1 filterDiv branding">
+                <div class="grid txt-white">
+                  <div class="unit xs-0 s-1 m-1-3">
+                    <img class="img-flex" src="/images/services/branding.png" alt="Branding icon">
+                  </div>
+                  <div class="unit gutter-1-2 xs-0 s-1 m-2-3">
+                    <h2 class="push-0">Our Services</h2>
+                    <h3 class="txt-green push-1-8 giga">Branding</h3>
+                    <p class="milli push-1-4">Brand identity is important to help distinguish your business from the competition. We can help you develop a visual representation that expresses the personality of your brand to potential or returning clients or customers.</p>
+                    <h4 class="txt-lgreen kilo push-1-4">Examples of Branding Projects</h4>
+                    <ul class="milli list-group grid-list in">
+                      <li>New Brand Identity</li>
+                      <li>Rebrand</li>
+                      <li>Brand Toolkit</li>
+                      <li>Logo Vectorization</li>
+                    </ul>
+                  </div>
+                  <div class="unit xs-0 m-1">
+                    <h4 class="gutter-1-2 kilo txt-white push-1-2">Featured Branding Projects</h4>
+                    <div class="grid">
+                      <div class="unit xs-0 m-1-2 gutter-1-2 pad-b-1-4">
+                        <div class="bg-blue rcorner txt-white img_wrap">
+                          <img class="img-flex" src="/images/cdps/website-lettersize-mockup-cdps.png" alt="CDPS preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Cochrane-District Paramedic Service</h2>
+                            <p class="milli">Branding | Print & Media</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit xs-0 m-1-2 gutter-1-2">
+                        <div class="bg-blue rcorner txt-white img_wrap">
+                          <img class="img-flex" src="/images/cdoht/website-lettersize-mockup-rounded.jpg" alt="CDOHT preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Cochrane District Ontario Health Team</h2>
+                            <p class="milli">Branding | Print & Media</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit m-1 pad-t-1-2 push gutter-1-2">
+                        <a class="btn btn-ghost gutter milli" href="portfolio">See All Branding Projects</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1 filterDiv media">
+                <div class="grid txt-white">
+                  <div class="unit xs-0 s-1 m-1-3">
+                    <img class="img-flex" src="/images/services/print-media.png" alt="Media icon">
+                  </div>
+                  <div class="unit gutter-1-2 xs-0 s-1 m-2-3">
+                    <h2 class="push-0">Our Services</h2>
+                    <h3 class="txt-green push-1-8 giga">Print & Media</h3>
+                    <p class="milli push-1-4">Working with your current brand, we can help you create uniform advertising materials. Keeping your advertisements consistent with your brand will help people recognize you at a glance.</p>
+                    <h4 class="txt-lgreen kilo push-1-4">Examples of Print & Media Projects</h4>
+                    <ul class="milli list-group grid-list in">
+                      <li>Handouts</li>
+                      <li>Social Media Ads</li>
+                      <li>Stationary</li>
+                      <li>Templates</li>
+                    </ul>
+                  </div>
+                  <div class="unit xs-0 m-1">
+                    <h4 class="gutter-1-2 kilo txt-white push-1-2">Featured Print & Media Projects</h4>
+                    <div class="grid">
+                      <div class="unit xs-0 m-1-2 gutter-1-2 pad-b-1-4">
+                        <div class="bg-blue txt-white rcorner img_wrap">
+                          <img class="img-flex" src="/images/phu/website-square-mockup-phu.png" alt="PHU preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Porcupine Health Unit</h2>
+                            <p class="milli">Print & Media</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit xs-0 m-1-2 gutter-1-2">
+                        <div class="bg-blue txt-white rcorner img_wrap">
+                          <img class="img-flex" src="/images/tfcc/website-lettersize-mockup-tfcc.png" alt="TFCC preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Timmins Family Counselling Center</h2>
+                            <p class="milli">Branding | Print & Media</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit m-1 pad-t-1-2 push gutter-1-2">
+                        <a class="btn btn-ghost gutter milli" href="portfolio">See All Print & Media Projects</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1 filterDiv web">
+                <div class="grid txt-white">
+                  <div class="unit xs-0 s-1 m-1-3">
+                    <img class="img-flex" src="/images/services/web-design.png" alt="Web icon">
+                  </div>
+                  <div class="unit gutter-1-2 xs-0 s-1 m-2-3">
+                    <h2 class="push-0">Our Services</h2>
+                    <h3 class="txt-green push-1-8 giga">Web Development</h3>
+                    <p class="milli push-1-4">Websites are crucial in the digital era. It's often the first place people will visit to learn more about your business. Having a difficult to navigate website can drive away potential clients or customers. We can help you bring your site up-to-date.</p>
+                    <h4 class="txt-lgreen kilo push-1-4">Examples of Web Development Projects</h4>
+                    <ul class="milli list-group grid-list in">
+                      <li>New Website Creation</li>
+                      <li>Website Management</li>
+                      <li>Website Rebrand</li>
+                      <li>SEO Optimization</li>
+                      <li>Ecommerce Setup</li>
+                      <li>Accessibility Optimization</li>
+                    </ul>
+                  </div>
+                  <div class="unit xs-0 m-1">
+                    <h4 class="gutter-1-2 kilo txt-white push-1-2">Featured Web Development Projects</h4>
+                    <div class="grid">
+                      <div class="unit xs-0 m-1-2 gutter-1-2 pad-b-1-4">
+                        <div class="bg-blue txt-white rcorner img_wrap">
+                          <img class="img-flex" src="/images/hm/website-1080p-humanagement.jpg" alt="HM preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Humanagement</h2>
+                            <p class="milli">Branding | Print & Media | Web Design</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit xs-0 m-1-2 gutter-1-2">
+                        <div class="bg-blue txt-white rcorner img_wrap">
+                          <img class="img-flex" src="/images/cochrane/website-lettersize-mockup-ct.png" alt="TC preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Tourism Cochrane</h2>
+                            <p class="milli">Branding | Print & Media | Web Design</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit m-1 pad-t-1-2 push gutter-1-2">
+                        <a class="btn btn-ghost gutter milli" href="portfolio">See All Web Development Projects</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1 filterDiv motion">
+                <div class="grid txt-white">
+                  <div class="unit xs-0 s-1 m-1-3">
+                    <img class="img-flex" src="/images/services/motion.png" alt="Motion icon">
+                  </div>
+                  <div class="unit gutter-1-2 xs-0 s-1 m-2-3">
+                    <h2 class="push-0">Our Services</h2>
+                    <h3 class="txt-green push-1-8 giga">Motion Graphics</h3>
+                    <p class="milli push-1-4">It's hard to keep people's attention with the endless amount of content online. We can help you catch their eye by bringing your advertisements to life or informing your audience with a step-by-step video.</p>
+                    <h4 class="txt-lgreen kilo push-1-4">Examples of Motion Graphics Projects</h4>
+                    <ul class="milli list-group grid-list in">
+                      <li>Animated Advertisements</li>
+                      <li>Broadcast Package</li>
+                      <li>Explainer Videos</li>
+                      <li>Streaming Package</li>
+                      <li>Character Animation</li>
+                    </ul>
+                  </div>
+                  <div class="unit xs-0 m-1">
+                    <h4 class="gutter-1-2 kilo txt-white push-1-2">Featured Motion Graphics Projects</h4>
+                    <div class="grid">
+                      <div class="unit xs-0 m-1-2 gutter-1-2 pad-b-1-4">
+                        <div class="bg-blue txt-white rcorner img_wrap">
+                          <img class="img-flex" src="/images/gg/website-1080p-mockup-gg.png" alt="GG preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Grant Getters</h2>
+                            <p class="milli">Branding | Motion Graphics | Illustration</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit xs-0 m-1-2 gutter-1-2">
+                        <div class="bg-blue txt-white rcorner img_wrap">
+                          <img class="img-flex" src="/images/ece/website-1080p-mockup-ece.png" alt="ECE preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Ontario Early Childhood Educators Grants</h2>
+                            <p class="milli">Motion Graphics | Illustration</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit m-1 pad-t-1-2 push gutter-1-2">
+                        <a class="btn btn-ghost gutter milli" href="portfolio">See All Motion Projects</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="unit xs-0 s-1 m-1 filterDiv illustration">
+                <div class="grid txt-white">
+                  <div class="unit xs-0 s-1 m-1-3">
+                    <img class="img-flex" src="/images/services/illustration.png" alt="Illustration icon">
+                  </div>
+                  <div class="unit gutter-1-2 xs-0 s-1 m-2-3">
+                    <h2 class="push-0">Our Services</h2>
+                    <h3 class="txt-green push-1-8 giga">Illustration</h3>
+                    <p class="milli push-1-4">It's important to break up the monotony of text by including interesting visuals that can tell a story with just a glance. By adding a splash of colour, we can help draw attention to what's important.</p>
+                    <h4 class="txt-lgreen kilo push-1-4">Examples of Illustration Projects</h4>
+                    <ul class="milli list-group grid-list in">
+                      <li>Custom Vector Imagery</li>
+                      <li>Product Mockups</li>
+                      <li>Custom Icons</li>
+                      <li>3D Rendering</li>
+                    </ul>
+                  </div>
+                  <div class="unit xs-0 m-1">
+                    <h4 class="gutter-1-2 kilo txt-white push-1-2">Featured Illustration Projects</h4>
+                    <div class="grid">
+                      <div class="unit xs-0 m-1-2 gutter-1-2 pad-b-1-4">
+                        <div class="bg-blue txt-white rcorner img_wrap">
+                          <img class="img-flex" src="/images/gg/website-1080p-mockup-gg.png" alt="GG preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Grant Getters</h2>
+                            <p class="milli">Branding | Motion Graphics | Illustration</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit xs-0 m-1-2 gutter-1-2">
+                        <div class="bg-blue txt-white rcorner img_wrap">
+                          <img class="img-flex" src="/images/ece/website-1080p-mockup-ece.png" alt="ECE preview">
+                          <div class="img_description island-1-2 rcorner">
+                            <h3 class="push-1-8 mega">Ontario Early Childhood Educators Grants</h2>
+                            <p class="milli">Motion Graphics | Illustration</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="unit m-1 pad-t-1-2 push gutter-1-2">
+                        <a class="btn btn-ghost gutter milli" href="portfolio">See All Illustration Projects</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <script>
+          filterSelection("branding")
+          function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+              w3RemoveClass(x[i], "show");
+              if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+          }
+
+          function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+            }
+          }
+
+          function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+              }
+            }
+            element.className = arr1.join(" ");
+          }
+
+          var btnContainer = document.getElementById("myBtnContainer");
+          var btns = btnContainer.getElementsByClassName("btn-fil");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+              var current = document.getElementsByClassName("active");
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
+            });
+          }
+          </script>
+
         </div>
       </div>
-      <div class="unit xs-1 s-0 unit-content-center pad-t-2 pad-b-2 push-2">
-        <div class="welcome">
-          <h1 class="tena push-r">Our Services</h1>
-          <p>At Fat Black Cat Studio, we understand every company has different needs. We work closely with our cilents to ensure their unique needs are met.</p>
-          <a class="btn btn-light gutter-2" href="#quote">How to request a quote</a>
+
+
+      <!-- Process -->
+      <div class="unit xs-0 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6 island-2 bg-black txt-white">
+        <h2 class="text-center txt-green">Our Process</h2>
+        <div class="grid grid-middle gutter-2 wrapper">
+          <div class="unit m-1-6 text-center">
+            <b class="txt-lgreen txt-big">1</b>
+          </div>
+          <div class="unit m-5-6 milli">
+            <h3 class="mega push-1-2">Requirement Gathering</h3>
+            <p class="push-1-4">Once an estimate is accepted, we will request any brand guidelines you may have, then we will gather all information and content needed to begin the project.</p>
+            <b>Text and content for the project should be finalized before the project is started.</b>
+            <p class="push-0">Changes in content can drastically change the layout of a project.</p>
+          </div>
+          <div class="unit m-1-6 text-center pad-t-2">
+            <b class="txt-lgreen txt-big">2</b>
+          </div>
+          <div class="unit m-5-6 milli pad-t-2 unit">
+            <h3 class="mega push-1-2">Style Exploration</h3>
+            <p class="push-1-4">During Style Exploration, we will present you with some previews of a portion of the project with different style options to be narrowed down to a final style.</p>
+          </div>
+          <div class="unit m-1-6 text-center pad-t-2">
+            <b class="txt-lgreen txt-big">3</b>
+          </div>
+          <div class="unit m-5-6 milli pad-t-2">
+            <h3 class="mega push-1-2">Initial Designs</h3>
+            <p class="push-1-4">Once a style established, we will present you with the first draft of the project. We will then discuss any edits that may be needed before the final version.</p>
+          </div>
+          <div class="unit m-1-6 text-center pad-t-2">
+            <b class="txt-lgreen txt-big">4</b>
+          </div>
+          <div class="unit m-5-6 milli pad-t-2">
+            <h3 class="mega push-1-2">Revisions</h3>
+            <p class="push-1-4">Similarly to the last step, during this step, we will discuss if any further changes are needed. This step may need to be repeated a few times.</p>
+          </div>
+          <div class="unit m-1-6 text-center pad-t-2">
+            <b class="txt-lgreen txt-big">5</b>
+          </div>
+          <div class="unit m-5-6 milli pad-t-2">
+            <h3 class="mega push-1-2">Final Deliverables</h3>
+            <p class="push-1-4">All elements of the project are saved and prepared for all applications. This is the final step of the project. Changes to the project cannot be made after this step without opening a new project.</p>
+          </div>
         </div>
       </div>
 
 
-      <div class="unit xs-0 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6">
-        <ul class="list-group-inline push-0 footer-b text-center">
-          <li class="gutter-1-2">Branding,</li>
-          <li class="gutter-1-2">Print & Media,</li>
-          <li class="gutter-1-2">Web Design,</li>
-          <li class="gutter-1-2">Illustration,</li>
-          <li class="gutter-1-2">Motion Graphics,</li>
-          <li class="gutter-1-2">And More!</li>
+      <!-- Small Works -->
+      <div class="unit xs-1 s-0 bg-blue nav-space">
+        <ul class="grid list-group-inline pad-t txt-white wrapper gutter-2">
+          <li class="unit xs-1"><h1 class="push-1-4">Our Work</h1></li>
+          <li class="unit push">Here you can find the projects that we've done.</li>
         </ul>
       </div>
-      <div class="unit xs-1 s-0">
-        <ul class="grid list-group-inline push-0 footer-b tera">
-          <li class="unit xs-1-2">Branding,</li>
-          <li class="unit xs-1-2 text-right push">Print & Media,</li>
-          <li class="unit xs-1-2">Web Design,</li>
-          <li class="unit xs-1-2 text-right push">Illustration,</li>
-          <li class="unit xs-2-3">Motion Graphics,</li>
-          <li class="unit xs-1-3 text-right">And More!</li>
-        </ul>
-      </div>
 
-      <!-- Services -->
-      <div class="unit xs-1 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6">
-        <div class="grid bg-grey">
-          <div class="unit xs-1 s-1-2 m-1-3 unit-content-center island-1-2">
-            <img class="img-flex" src="/images/services/branding.png" alt="Branding icon">
-          </div>
-          <div class="unit xs-0 s-1 s-1-2 m-1-2 pad-t-2 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Branding</h2>
-            <p>Brand identity is important to help distinguish your business from the competition. We can help you develop a visual representation that expresses the personality of your brand to potential or returning clients or customers.</p>
-          </div>
-          <div class="unit xs-1 s-0 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Branding</h2>
-            <p>Brand identity is important to help distinguish your business from the competition. We can help you develop a visual representation that expresses the personality of your brand to potential or returning clients or customers.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="unit xs-1 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6">
+      <div class="unit xs-1 s-0 gutter">
         <div class="grid">
-          <div class="unit xs-1 s-1-2 m-1-3 unit-content-center island-1-2">
-            <img class="img-flex" src="/images/services/print-media.png" alt="Print & media icon">
+          <div class="unit xs-1 s-1-2 pad-t pad-b">
+            <div>
+              <img class="img-flex island-1-2" src="/images/fbc/fbc-brandguide-mockup.jpg" alt="Fat Black Cat brand guide mock up">
+              <h2 class="txt-thin push-1-8">Our Brand</h2>
+              <h3 class="txt-blue push-1-4">Categories</h3>
+              <p class="milli txt-grey push-1-2">Branding | Print & Media</p>
+              <p>All brands have to start somewhere. See the building of our brand from logo creation to website design to other print <br>& media branded materials.</p>
+            </div>
+            <div class="unit-content-center">
+              <a class="btn btn-light gutter-2" href="our-brand">See more</a>
+            </div>
           </div>
-          <div class="unit xs-0 s-1 s-1-2 m-1-2 pad-t-2 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Print & Media</h2>
-            <p>Working with your current brand, we can help you create uniform advertising materials. Keeping your advertisements consistent with your brand will help people recognize you at a glance.</p>
-          </div>
-          <div class="unit xs-1 s-0 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Print & Media</h2>
-            <p>Working with your current brand, we can help you create uniform advertising materials. Keeping your advertisements consistent with your brand will help people recognize you at a glance.</p>
+          <div class="unit xs-1 s-1-2">
+            <div>
+              <img class="img-flex" src="/images/hm/hm-preview.jpg" alt="Humanagement laptop preview">
+              <h2 class="txt-thin push-1-8">Humanagement</h2>
+              <h3 class="txt-blue push-1-4">Categories</h3>
+              <p class="milli txt-grey push-1-2">Branding | Print & Media | Web Design</p>
+              <p>See the creation of the brand identity <br>and print media of Humanagement, a business consulting company.</p>
+            </div>
+            <div class="unit-content-center">
+              <a class="btn btn-light gutter-2" href="humanagement">See more</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="unit xs-1 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6">
-        <div class="grid bg-grey">
-          <div class="unit xs-1 s-1-2 m-1-3 unit-content-center island-1-2">
-            <img class="img-flex" src="/images/services/web-design.png" alt="Web icon">
-          </div>
-          <div class="unit xs-0 s-1 s-1-2 m-1-2 pad-t-2 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Website Design</h2>
-            <p>Websites are crucial in the digital era. It's often the first place people will visit to learn more about your business. Having a difficult to navigate website can drive away potential clients or customers. We can help you bring your site up-to-date.</p>
-          </div>
-          <div class="unit xs-1 s-0 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Website Design</h2>
-            <p>Websites are crucial in the digital era. It's often the first place people will visit to learn more about your business. Having a difficult to navigate website can drive away potential clients or customers. We can help you bring your site up-to-date.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="unit xs-1 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6">
+      <div class="unit xs-1 s-0 gutter">
         <div class="grid">
-          <div class="unit xs-1 s-1-2 m-1-3 unit-content-center island-1-2">
-            <img class="img-flex" src="/images/services/illustration.png" alt="Illustration icon">
+          <div class="unit xs-1 s-1-2 pad-t pad-b">
+            <div>
+              <img class="img-flex island" src="/images/tfcc/tfcc-logo-vertical.png" alt="Timmins Family Counselling Center logo">
+              <h2 class="txt-thin push-1-8">Timmins Family Counselling Center</h2>
+              <h3 class="txt-blue push-1-4">Categories</h3>
+              <p class="milli txt-grey push-1-2">Branding | Print & Media</p>
+              <p>See the creation of the new logo for the Timmins Family Counselling Center.</p>
+            </div>
+            <div class="unit-content-center">
+              <a class="btn btn-light gutter-2" href="tfcc">See more</a>
+            </div>
           </div>
-          <div class="unit xs-0 s-1 s-1-2 m-1-2 pad-t-2 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Illustration</h2>
-            <p>It's important to break up the monotony of text by including interesting visuals that can tell a story with just a glance. By adding a splash of colour, we can help draw attention to what's important.</p>
-          </div>
-          <div class="unit xs-1 s-0 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Illustration</h2>
-            <p>It's important to break up the monotony of text by including interesting visuals that can tell a story with just a glance. By adding a splash of colour, we can help draw attention to what's important.</p>
+          <div class="unit xs-1 s-0">
+            <div>
+              <img class="img-flex" src="/images/ece/ece-preview.jpg" alt="Ontario ECE Grants video preview">
+              <h2 class="txt-thin push-1-8">Ontario ECE Grants</h2>
+              <h3 class="txt-blue push-1-4">Categories</h3>
+              <p class="milli txt-grey push-1-2">Illustration | Motion Graphics</p>
+              <p>From writing the script to the final video, see the process of creating a step-by-step instructional video.</p>
+            </div>
+            <div class="unit-content-center">
+              <a class="btn btn-light gutter-2" href="ece">See more</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="unit xs-1 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6">
-        <div class="grid bg-grey">
-          <div class="unit xs-1 s-1-2 m-1-3 unit-content-center island-1-2">
-            <img class="img-flex" src="/images/services/motion.png" alt="Motion icon">
+      <div class="unit xs-1 s-0 gutter">
+        <div class="grid">
+          <div class="unit xs-1 s-1-2 pad-t pad-b">
+            <div>
+              <img class="img-flex" src="/images/pitch/pitch-preview.jpg" alt="Pitch video preview">
+              <h2 class="txt-thin push-1-8">Pitch</h2>
+              <h3 class="txt-blue push-1-4">Categories</h3>
+              <p class="milli txt-grey push-1-2">Motion Graphics</p>
+              <p>See the process of creating a short animated advertisement for a event.</p>
+            </div>
+            <div class="unit-content-center">
+              <a class="btn btn-light gutter-2" href="pitch">See more</a>
+            </div>
           </div>
-          <div class="unit xs-0 s-1 s-1-2 m-1-2 pad-t-2 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Motion Graphics</h2>
-            <p>It's hard to keep people's attention with the endless amount of content online. We can help you catch their eye by bringing your advertisements to life or informing your audience with a step-by-step video.</p>
-          </div>
-          <div class="unit xs-1 s-0 pad-b-2 gutter">
-            <h2 class="txt-thin push-1-8">Motion Graphics</h2>
-            <p>It's hard to keep people's attention with the endless amount of content online. We can help you catch their eye by bringing your advertisements to life or informing your audience with a step-by-step video.</p>
+          <div class="unit xs-1 s-1-2 pad-b-2">
+            <div>
+              <img class="img-flex island" src="/images/cochrane/cochrane-brand-guide-front.png" alt="Tourism Cochrane brand guide cover">
+              <h2 class="txt-thin push-1-8">Tourism Cochrane</h2>
+              <h3 class="txt-blue push-1-4">Categories</h3>
+              <p class="milli txt-grey push-1-2">Branding | Web Design</p>
+              <p>See the creation of Tourism Cochrane's updated brand identity.</p>
+            </div>
+            <div class="unit-content-center">
+              <a class="btn btn-light gutter-2" href="tourism-cochrane">See more</a>
             </div>
           </div>
         </div>
       </div>
+
 
       <!-- Form -->
       <div class="unit xs-0 s-1 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6 island-2">
@@ -297,19 +611,23 @@
         </form>
       </div>
 
+
       <!-- Footer -->
       <div class="unit xs-0 m-3-4 l-5-6 unit-offset-m-1-4 unit-offset-l-1-6">
-        <ul class="list-group-inline push-0 footer-a text-right">
+        <ul class="list-group-inline push-0 footer-b text-right">
           <li class="micro">
-            <a href="/#/">Privacy Policy</a>
+            <a href="/#/">Design Policy</a>
           </li>
           <li class="micro gutter-1-2">
             <a href="/#/">Terms & Condition</a>
           </li>
+          <li class="micro">
+            <a href="/#/">Privacy Policy</a>
+          </li>
         </ul>
       </div>
       <div class="unit xs-1 m-0">
-        <ul class="list-group-inline push-0 footer-a text-center">
+        <ul class="list-group-inline push-0 footer-b text-center">
           <li class="micro">
             <a href="/#/">Privacy Policy</a>
           </li>
